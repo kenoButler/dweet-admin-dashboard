@@ -13,6 +13,9 @@ export default defineConfig({
     port: 3001,
     host: true
   },
+  preview: {
+    allowedHosts: ['dweet-admin-dashboard.onrender.com', 'phoenix.dweetapp.com']
+  },
   build: {
     outDir: 'dist',
     sourcemap: true
