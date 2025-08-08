@@ -8,7 +8,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '../co
 import { AdminLayout } from '../components/layout/AdminLayout'
 import { Routes, Route, Link } from 'react-router-dom'
 import { formatDate } from '../lib/utils'
-import { Users, Target, FileText, BookOpen, Gift } from 'lucide-react'
+import { Users, Target, FileText, BookOpen } from 'lucide-react'
 import { UserDetailModal } from '../components/UserDetailModal'
 
 interface AdminDashboardProps {

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { useQuery, useMutation, useQueryClient } from '@tanstack/react-query'
 import { supabaseAdmin } from '../lib/supabase'
 import { formatDate, formatRelativeTime } from '../lib/utils'
@@ -8,7 +8,7 @@ import { Badge } from './ui/badge'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from './ui/tabs'
 import { Input } from './ui/input'
 import { Textarea } from './ui/textarea'
-import { X, Mail, Calendar, Shield, CreditCard, Activity, User, Database, Download, AlertTriangle } from 'lucide-react'
+import { X, Mail, Calendar, Shield, CreditCard, Activity, User, Download, AlertTriangle } from 'lucide-react'
 
 interface UserDetailModalProps {
   userId: string
